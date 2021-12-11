@@ -15,10 +15,9 @@ This is deep learning homework3, the proposed challenge is nuclei instance segme
 2. run `train.py` to start train.
 
 ### How to test and create submission json:
-1. first, run `test_preprocess.py` to separate test images into 2 image(left and right) and put them into `dataset/test_seg/` folder.
-2. download model from [google drive](https://drive.google.com/file/d/1_PWRbMFeOjGYk7bOUY2yZ619Oe48Jjv_/view?usp=sharing)
-3. create `submission_seg` folder and put model in this folder
-4. run `test_seg.py` and you will get `answer.json` in `submission_seg` folder.
+1. download model from [google drive](https://drive.google.com/file/d/1_PWRbMFeOjGYk7bOUY2yZ619Oe48Jjv_/view?usp=sharing)
+2. create `submission_seg` folder and put model in this folder
+3. run `inference.py` and you will get `answer.json` in `submission_seg` folder.
 
 ### Reference
 - [detectron2](https://github.com/facebookresearch/detectron2)
