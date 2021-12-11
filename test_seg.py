@@ -40,7 +40,7 @@ cfg.MODEL.ROI_HEADS.NUM_CLASSES = 1
 # path to the model we just trained
 # cfg.MODEL.WEIGHTS = os.path.join(cfg.OUTPUT_DIR, "model_final.pth")
 cfg.MODEL.WEIGHTS = os.path.join(
-   "./output-23100", "model_final-23100-exceed_baseline.pth")
+   "./submission_seg", "model_final-23100-exceed_baseline.pth")
 cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.4   # set a custom testing threshold
 predictor = DefaultPredictor(cfg)
 
